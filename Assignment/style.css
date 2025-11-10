@@ -1,0 +1,102 @@
+body{
+    background-color:aliceblue;
+}
+
+header{
+    background-color:#4c7c4c;
+    text-align:center;
+    padding: 10px;
+}
+
+header a{
+color:white;
+text-decoration:none;
+font-size:20px;
+}
+nav a{
+    margin-right:25px;
+    margin-left:25px;
+    display:inline-block;
+}
+main section{
+    padding: 10px;
+     padding-left:5px;
+}
+
+main h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:#4c7c4c;
+    padding-left:5px;
+}
+main p{
+    font-size:large;
+    padding-left:5px;
+}
+footer{
+    background-color:#4c7c4c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align:center;
+    padding: 15px;
+    padding-top:20px;
+}
+
+.logo-float{
+   float:left; 
+   padding-bottom:20px;
+   margin-left: 60px;
+  
+  
+}
+
+ .column-container{
+    border:5px solid black;
+    color:white;
+    display:flex;
+    align-items:stretch;
+    margin: 50px;
+    
+
+}
+.column{
+    flex: 1;
+    padding: 15px;
+    color: black;
+   
+}
+.column:not(:last-child){
+         border-right:10px solid black;
+        
+}
+.green{
+    background-color:green;
+    color: white;
+}
+.gray{
+    background-color:gray;
+    color: white;
+
+}
+.column h2{
+    color: white;
+    margin: 0;
+}
+
+
+.code-container{
+    margin:10px 0;
+    max-width:800px;
+}
+.code-snippet{
+    display:block;
+    background-color: #272822;
+    padding: 12px 15px;
+    color: #f8f8f2;
+    
+    border-radius:4px; 
+    overflow-x:auto;
+    font-size:0.9em;
+    font-family: monospace,sans-serif;
+   
+   
+}
